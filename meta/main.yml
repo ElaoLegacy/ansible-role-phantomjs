@@ -4,7 +4,7 @@ dependencies:
 
   - { role: elao.base }
   - { role: elao.node }
-  - { role: elao.service, name: phantomjs, command: '/usr/bin/phantomjs --wd' }
+  - { role: elao.service, name: phantomjs, command: '/usr/bin/phantomjs --webdriver=4444' }
 
 galaxy_info:
 
