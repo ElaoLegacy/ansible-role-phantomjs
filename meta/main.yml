@@ -1,0 +1,21 @@
+---
+
+dependencies:
+
+  - { role: elao.node }
+  - { role: elao.service, name: phantomjs, command: '/usr/bin/phantomjs --wd' }
+
+galaxy_info:
+
+  author:              elao
+  description:         A phantomjs role for elao symfony standard vagrant box
+  company:             elao
+  license:             MIT
+  min_ansible_version: 1.7.0
+  platforms:
+    - name: Debian
+  versions:
+    - wheezy
+  categories:
+    - development
+    - web
