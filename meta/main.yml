@@ -2,6 +2,7 @@
 
 dependencies:
 
+  - { role: elao.base }
   - { role: elao.node }
   - { role: elao.service, name: phantomjs, command: '/usr/bin/phantomjs --wd' }
 
