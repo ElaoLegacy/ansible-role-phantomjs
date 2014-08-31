@@ -13,7 +13,6 @@
     name={{ item }}
     state=present
     global=yes
-    version={{ version }}
   with_items:
     - phantomjs
   sudo: yes
