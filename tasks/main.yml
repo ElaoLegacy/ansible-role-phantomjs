@@ -2,7 +2,7 @@
 
 - name: packages dependencies
   apt: >
-    pkg={{ item }}
+    name={{ item }}
     state=present
   with_items:
     - libfontconfig1
