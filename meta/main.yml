@@ -4,9 +4,9 @@ dependencies:
 
   - { role: elao.node }
   - { role: elao.service,
-    elao_services: {
-      phantomjs: { type: command, command: '/usr/bin/phantomjs --webdriver=4444' }
-    }
+    elao_services: [
+      { name: phantomjs, type: command, command: '/usr/bin/phantomjs --webdriver=4444' }
+    ]
   }
 
 
